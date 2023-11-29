@@ -1,0 +1,36 @@
+@import url('styles/header.css');
+@import url('styles/mockups.css');
+@import url('styles/benefits.css');
+@import url('styles/articles.css');
+@import url('styles/button.css');
+
+:root {
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: #FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    height: 100%;
+    font-size: 18px;
+}
+
+p {
+    line-height: 25px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

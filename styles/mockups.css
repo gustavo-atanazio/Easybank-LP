@@ -1,0 +1,58 @@
+.mockups {
+    text-align: center;
+    background: linear-gradient(180deg, var(--light-grayish-blue) 23%, var(--very-light-gray) 88%);
+}
+
+.mockups__img {
+    background-image: url('../assets/img/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* overflow: hidden; */
+}
+
+.mockups__img img {
+    width: 100%;
+    /* position: relative;
+    top: -130px; */
+}
+
+.mockups__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.mockups__text h1 {
+    font-weight: 300;
+}
+
+.mockups__text p {
+    color: var(--grayish-blue);
+}
+
+@media (min-width: 992px) {
+    .mockups {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 1rem;
+
+        text-align: unset;
+    }
+
+    .mockups__img {
+        background-image: url('../assets/img/bg-intro-desktop.svg');
+    }
+
+    .mockups__text {
+        padding: 5rem;
+        align-items: unset;
+    }
+
+    .mockups__text h1 {
+        font-size: 2.5rem;
+    }
+}

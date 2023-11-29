@@ -1,0 +1,48 @@
+header {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    background: var(--white);
+    width: 100%;
+}
+
+.header__links {
+    display: none;
+}
+
+header .button {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    header .button {
+        display: block;
+    }
+
+    .material-symbols-outlined {
+        display: none;
+    }
+
+    header {
+        position: static;
+        justify-content: space-around;
+    }
+
+    .header__links {
+        display: block;
+    }
+
+    .header__links div {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .header__links div a {
+        text-decoration: none;
+        color: var(--grayish-blue);
+    }
+}
