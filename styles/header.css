@@ -42,7 +42,30 @@ header .button {
     }
 
     .header__links div a {
+        position: relative;
         text-decoration: none;
         color: var(--grayish-blue);
+        transition: 0.2s;
+    }
+
+    .header__links div a:hover {
+        transition: 0.2s;
+        color: var(--dark-blue);
+    }
+
+    .header__links div a::after {
+        content: ' ';
+        width: 0%;
+        height: 4px;
+        background: linear-gradient(90deg, var(--lime-green) 23%, var(--bright-cyan) 88%);
+
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+
+    .header__links div a:hover::after {
+        width: 100%;
     }
 }
