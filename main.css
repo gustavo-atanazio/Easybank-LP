@@ -4,6 +4,7 @@
 @import url('styles/articles.css');
 @import url('styles/footer.css');
 
+@import url('styles/utils/modal.css');
 @import url('styles/utils/button.css');
 @import url('styles/utils/container.css');
 @import url('styles/utils/flex-container.css');
