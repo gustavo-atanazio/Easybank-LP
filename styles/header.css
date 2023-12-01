@@ -13,6 +13,10 @@ header {
     display: none;
 }
 
+.menu img {
+    width: 35px;
+}
+
 header .button {
     display: none;
 }
@@ -22,7 +26,7 @@ header .button {
         display: block;
     }
 
-    .material-symbols-outlined {
+    .menu {
         display: none;
     }
 
