@@ -1,21 +1,9 @@
 .articles {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-
-    text-align: center;
-    padding: 3rem 1.5rem;
     background-color: var(--very-light-gray);
 }
 
 .articles h2 {
     font-weight: 300;
-}
-
-.articles__container {
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
 }
 
 .articles__container img {
@@ -60,15 +48,6 @@
 }
 
 @media (min-width: 992px) {
-    .articles {
-        text-align: unset;
-        padding: 3rem 7rem;
-    }
-    
-    .articles__container {
-        flex-direction: row;
-    }
-
     .article__text h4:hover {
         cursor: pointer;
         color: var(--bright-cyan);

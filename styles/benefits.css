@@ -1,18 +1,12 @@
 .benefits {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-
     background-color: var(--light-grayish-blue);
-    text-align: center;
-    padding: 3rem 1.5rem;
 }
 
 .benefits p {
     color: var(--grayish-blue);
 }
 
-.benefits__text, .benefits__items {
+.benefits__text {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -20,10 +14,6 @@
 
 .benefits__text h2, .benefits__items div h3 {
     font-weight: 300;
-}
-
-.benefits__items {
-    gap: 2.5rem;
 }
 
 .benefits__items div {
@@ -34,15 +24,6 @@
 }
 
 @media (min-width: 992px) {
-    .benefits {
-        text-align: unset;
-        padding: 3rem 7rem;
-    }
-
-    .benefits__items {
-        flex-direction: row;
-    }
-
     .benefits__items div {
         align-items: start;
     }

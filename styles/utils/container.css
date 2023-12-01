@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+
+@media (min-width: 992px) {
+    .container {
+        text-align: unset;
+        padding: 3rem 7rem;
+    }
+}
