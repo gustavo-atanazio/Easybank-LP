@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/responsive-landing-page-using-html-css-and-js-vdaaVaOm7R)
 - Live Site URL: [easybank-lilac-rho.vercel.app](https://easybank-lilac-rho.vercel.app/)
 
 ## My process
